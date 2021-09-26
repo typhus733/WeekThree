@@ -48,7 +48,7 @@ namespace WeekThree
 
             var random = new Random();
             
-            for (int x = 0; x <= inputNum; x++)
+            for (int x = 0; x < inputNum; x++)
             {
                 indexRandom = random.Next(0, inputNum);
                 if(array[indexRandom] != 0)
