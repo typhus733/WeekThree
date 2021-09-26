@@ -1,0 +1,14 @@
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\bin\Debug\netcoreapp3.1\WeekThree.exe
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\bin\Debug\netcoreapp3.1\WeekThree.deps.json
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\bin\Debug\netcoreapp3.1\WeekThree.runtimeconfig.json
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\bin\Debug\netcoreapp3.1\WeekThree.runtimeconfig.dev.json
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\bin\Debug\netcoreapp3.1\WeekThree.dll
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\bin\Debug\netcoreapp3.1\WeekThree.pdb
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\obj\Debug\netcoreapp3.1\WeekThree.csproj.AssemblyReference.cache
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\obj\Debug\netcoreapp3.1\WeekThree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\obj\Debug\netcoreapp3.1\WeekThree.AssemblyInfoInputs.cache
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\obj\Debug\netcoreapp3.1\WeekThree.AssemblyInfo.cs
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\obj\Debug\netcoreapp3.1\WeekThree.csproj.CoreCompileInputs.cache
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\obj\Debug\netcoreapp3.1\WeekThree.dll
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\obj\Debug\netcoreapp3.1\WeekThree.pdb
+C:\Users\brandon.gunthner\Desktop\ProgProj\WeekThree\WeekThree\obj\Debug\netcoreapp3.1\WeekThree.genruntimeconfig.cache
