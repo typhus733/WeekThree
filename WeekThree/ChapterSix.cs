@@ -27,8 +27,7 @@ namespace WeekThree
             {
                 for (int y = 0; y < inputNum; y++)
                 {
-                    Console.Write(x + y);
-                    Console.Write(" ");
+                    Console.Write("{0} ", x + y);
                 }
                 Console.Write("\n");
             }
@@ -40,10 +39,9 @@ namespace WeekThree
             int inputNum = int.Parse(Console.ReadLine());
             int[] array = new int[inputNum];
             int indexRandom;
-            
-            for (int x = 0; x < inputNum; x++)
+            for (int x = 1; x <= inputNum; x++)
             {
-                array[x] = x + 1;
+                array[x] = x;
             }
 
             var random = new Random();
@@ -64,8 +62,8 @@ namespace WeekThree
         }
         static void Main(string[] args)
         {
-            NumberFour();
-            NumberTen();
+            //NumberFour();
+            //NumberTen();
             NumberSixteen();
         }
     }
