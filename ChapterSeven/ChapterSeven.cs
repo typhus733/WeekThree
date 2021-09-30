@@ -43,11 +43,16 @@ namespace ChapterSeven
                     {"c", "d", "a", "b"},
             };
 
+            for (int row = 0; row < stringMatrix.GetLength(0); row++)
+            {
+                for (int col = 0; col < stringMatrix.GetLength(1); col++)
+                {
 
 
+                }
+
+            }
         }
-
-
         static void Main(string[] args)
         {
             NumberTen();

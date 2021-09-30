@@ -39,9 +39,9 @@ namespace WeekThree
             int inputNum = int.Parse(Console.ReadLine());
             int[] array = new int[inputNum];
             int indexRandom;
-            for (int x = 1; x <= inputNum; x++)
+            for (int x = 0; x < inputNum; x++)
             {
-                array[x] = x;
+                array[x] = x + 1;
             }
 
             var random = new Random();
