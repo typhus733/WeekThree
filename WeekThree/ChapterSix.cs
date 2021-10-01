@@ -38,17 +38,18 @@ namespace WeekThree
             Console.Write("Enter an integer: ");
             int inputNum = int.Parse(Console.ReadLine());
             int[] array = new int[inputNum];
-            int indexRandom;
+            var random = new Random();
+
+
             for (int x = 0; x < inputNum; x++)
             {
                 array[x] = x + 1;
             }
 
-            var random = new Random();
             
             for (int x = 0; x < inputNum; x++)
             {
-                indexRandom = random.Next(0, inputNum);
+                int indexRandom = random.Next(0, inputNum);
                 if(array[indexRandom] != 0)
                 {
                     Console.WriteLine(array[indexRandom]);

@@ -33,29 +33,83 @@ namespace ChapterSeven
 
         static void NumberFourteen()
         {
-            int maxCounter = 0, currentCounter = 1;
+            
             string maxElement = "";
-
             string[,] stringMatrix =
             {
-                    {"a", "b", "c", "d"},
-                    {"b", "a", "d", "c"},
-                    {"c", "d", "a", "b"},
+                    {"b", "a", "d", "a"},
+                    {"c", "b", "a", "d"},
+                    {"c", "d", "a", "d"},
             };
-
-            for (int row = 0; row < stringMatrix.GetLength(0); row++)
+            int maxCounter = 0, currentCounter = 0, rowLen = stringMatrix.GetLength(0), colLen = stringMatrix.GetLength(1);
+            for (int row = 0; row < rowLen - 1; row++)
             {
-                for (int col = 0; col < stringMatrix.GetLength(1); col++)
+                for (int col = 0; col < colLen - 1; col++)
                 {
+                    if (stringMatrix[row, col] == stringMatrix[row + 1, col])
+                    { 
+                        for (int x = row; x < rowLen - 1; x++)
+                        {
+                            if (stringMatrix[x, col] == stringMatrix[row, col])
+                            {
+                                currentCounter++;
+                                if (currentCounter > maxCounter)
+                                {
+                                    maxCounter = currentCounter;
+                                    maxElement = stringMatrix[row, col];
+                                }
+                            }
+                        }
+                    }
 
+                    currentCounter = 1;
+
+                    if (stringMatrix[row, col] == stringMatrix[row, col + 1])
+                    {
+                        for (int x = col; x < colLen - 1; x++)
+                        {
+                            if (stringMatrix[row, x] == stringMatrix[row, col])
+                            {
+                                currentCounter++;
+                                if (currentCounter > maxCounter)
+                                {
+                                    maxCounter = currentCounter;
+                                    maxElement = stringMatrix[row, col];
+                                }
+                            }
+                        }
+                    }
+
+                    currentCounter = 1;
+
+                    if (stringMatrix[row, col] == stringMatrix[row + 1, col + 1])
+                    {
+                        for (int x = row; x < rowLen - 1; x++)
+                        {
+                            if (stringMatrix[x + 1, x + 1] == stringMatrix[row, col])
+                            {
+                                currentCounter++;
+                                if (currentCounter > maxCounter)
+                                {
+                                    maxCounter = currentCounter;
+                                    maxElement = stringMatrix[row, col];
+                                }
+                            }
+                        }
+                    }
+
+                    currentCounter = 1;
 
                 }
 
             }
+
+            Console.WriteLine("{0} with {1} occurences", maxElement, maxCounter);
         }
         static void Main(string[] args)
         {
-            NumberTen();
+            //NumberTen();
+            NumberFourteen();
         }
     }
 }
